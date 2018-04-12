@@ -1,0 +1,905 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00D0E4F5EB0CF7F9938D0F48733C7253 /* DeviceInfoMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE118FA758754B83BBD2A5C08DFC40C /* DeviceInfoMessage.swift */; };
+		01C1543A0BD31E128FA4BF74417BF6FA /* CGPointToNSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCB69CCDA7B8756F6BAC3BBCE1B3F4F /* CGPointToNSDictionary.swift */; };
+		04B17477AB6F72F3DC489AB559FE5928 /* ObjectSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CA1B3C31B38FF1CA59E3FC3A18E8A0 /* ObjectSelector.swift */; };
+		0682474D2295E1CD4CD06B50128592B4 /* ObjectFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AC94A0A4855E1317A2DA99DD43F96C /* ObjectFilter.swift */; };
+		075C07EA3412D81C893556D1C95A1EB1 /* Flush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C5DCDD973BFF266CEA812BDAC2DE6D /* Flush.swift */; };
+		079C24C5DA20AC7B805576F46674E912 /* MPCloseButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D888F93B90C3D59CA788B8DC92E9172 /* MPCloseButton@3x.png */; };
+		0AB196AB47DB7B3BBEF56FD4CA7CC461 /* ObjectIdentityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F520302AC27E32E5AC987DC3CACA3C9E /* ObjectIdentityProvider.swift */; };
+		0B4765B6672A37727F1BE5A9F28C4CEF /* DisconnectMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39294509ECECDA546AC8E1CF4E88ECE /* DisconnectMessage.swift */; };
+		0C9992B9B14EAD4DDD6A48EB08169B60 /* TweakClusterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2CAAA71EC89F2CF35EC8AA1633CD5E /* TweakClusterType.swift */; };
+		0FF580E36008992ACEF86BF2E5721855 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26FD723F29F3CBF900AA78E29525C23 /* Error.swift */; };
+		135880DC8923AA57D8FD6318C7C31A92 /* AutomaticProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5932122D0836DB3F72C431E1A83EEE57 /* AutomaticProperties.swift */; };
+		1558FDF0C6167512B8E015B6B3DAB125 /* MixpanelInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90069736E99E4C73B4BB1762B771B320 /* MixpanelInstance.swift */; };
+		16189F3E0FD953700154C3E2565AA9CD /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB10774D2181EA07C97060820F1B5EF /* Track.swift */; };
+		1969B8E18F1E2C3ABC1EE89CE730CD04 /* TweakCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AE78EB7580F48CEC65F1BB349708DB /* TweakCollection.swift */; };
+		19FAA0082D9170D99247E106A40809CF /* BindingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740788AC435FD84310CFC381506D8832 /* BindingMessage.swift */; };
+		20745059AA8B68197F0E2CFD64F41B0F /* NSAttributedStringToNSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0126CA802F282C792ADB08E429B7A227 /* NSAttributedStringToNSDictionary.swift */; };
+		22067253E66DA68A9F0E1C6DA2E183F7 /* UITableViewBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A335E8C1DF0D62AD7F6ACDF4FB89C0 /* UITableViewBinding.swift */; };
+		24003D5AFA04A580DAFA7B691FDB9DBF /* TakeoverNotificationViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C27F6FB02F5D8CE0C01FD09EE1C5141 /* TakeoverNotificationViewController~ipad.xib */; };
+		26D0082A3CA9F756BA88B01A81784005 /* ClearMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D528ADC861ACB7B29BF4996E2DB9696C /* ClearMessage.swift */; };
+		2726D06E6C448FD44A581EA9C2B32B1C /* Mixpanel-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB562937BFE29062F03ED9ABCB632BA /* Mixpanel-swift-dummy.m */; };
+		2D129FCBD796C3D7EC3B6BE5E496A88D /* DecideRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338F010AE73043EB904BF3460D97AC86 /* DecideRequest.swift */; };
+		2E53623C177636A00781307991DAE23C /* ApplicationStateSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A173C9B52D83A47633D3FE24F81A903C /* ApplicationStateSerializer.swift */; };
+		2F6FA1C4A7104F937F7A6A4471110B57 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C6647BBF93B96097EE248C733C9F4E /* MD5.swift */; };
+		321FDA013AF39B60656575983929CD53 /* TakeoverNotificationViewController~iphonelandscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7877E06C194538D8F2A90B0D7E49CA2 /* TakeoverNotificationViewController~iphonelandscape.xib */; };
+		39F4BBBDE24D54C82075E20DAD99EA0C /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790ADFC29BB00D4BA073FC45E099F3AF /* Logger.swift */; };
+		3B3C34922003AF29A2D283E4827891E6 /* TweakGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEE554F52B4F77BC1FDE1CF04046C40 /* TweakGroup.swift */; };
+		3E2E2ACB0FEA127B26FA3F4991EC3B42 /* TweakMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C6145A790E55403F59F1BCA48CA2E3 /* TweakMessage.swift */; };
+		3ECEF7C84869A34AEFEC76353B01FA5A /* TweakBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A454D6B1930923E5E162BC28E001B0 /* TweakBinding.swift */; };
+		4069F3AC900666022F559F156EAB43E7 /* VariantAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB0D14D5FB9D3A2692C4E9E7F7EBF /* VariantAction.swift */; };
+		41BF58B3EA0721402636D5C0864BEC78 /* UIEdgeInsetsToNSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0095E52D5C42283473709A79897736D /* UIEdgeInsetsToNSDictionary.swift */; };
+		41C5EE7E9B43479C01F4DE40478FAEA5 /* UIImageToNSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E229F38A24E681683C8DF537CC8CD1F /* UIImageToNSDictionary.swift */; };
+		46F9D15E698E5D98F0F169E1A77D2648 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ADB9D42A0A00EE3D50498CF469432D /* WebSocket.swift */; };
+		4ABDDD533F366D55B32CD0B2F4019D40 /* Codeless.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD16A3F8B5A811F22678F367535D3CCB /* Codeless.swift */; };
+		54C4041C785072263803B9598AC95B5D /* FlushRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619FA74FBF91AD3FEDFF570D32DB2560 /* FlushRequest.swift */; };
+		57663596217B32F53071E5FFFCBFC929 /* ABTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF36A03AD32ADBA943CC091EDAF655DD /* ABTesting.swift */; };
+		5869F9ABDA8BD63C7B2EC5FF28C344A4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D733ABBD5FF978F8A84589A67BA69C /* Constants.swift */; };
+		58A54CBD06B809E6945D52898261A9E1 /* MiniNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3022B7BE61752F39F3427D4842D1B1 /* MiniNotification.swift */; };
+		5A2302420D2F41AA5FAA5BE8EC933D10 /* TakeoverNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844235CBEABD6A2F637ABEB4A001F5B /* TakeoverNotificationViewController.swift */; };
+		5B318CCB08298703E31650040465C8D2 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7192892032423E003A225E0093D0281 /* Network.swift */; };
+		5BFB811AD7CDC6044B4D8F6D48114CCB /* BaseNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08FE743C4EA29D175FB1F7E9F877B96 /* BaseNotificationViewController.swift */; };
+		5CB314D2C0CFBA580BEA8C9129E468AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDE9C94F5E22A6FA765E3292E4311CF /* Foundation.framework */; };
+		6446C6D9A29B4CBAA4842232186C1E5C /* ObjectSerializerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9B8340549FC414512356EF345AAAD2 /* ObjectSerializerConfig.swift */; };
+		67D4FBF88A98DBF5EE833C697E8FEDBD /* Pods-BGTask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDC6EA7F1C9CF1A217D70812B40F21C /* Pods-BGTask-dummy.m */; };
+		74EEEC345B173899E07924836B16138A /* TweakViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47DB28AB7D8C1E3FC31975A23F6ACDD /* TweakViewData.swift */; };
+		75B858A6B3157C873F01933402E6B513 /* ObjectSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096080E804AF1A70CF622CA90E7442DF /* ObjectSerializer.swift */; };
+		78B49A748D008F6D704BA517056AF658 /* SnapshotMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D95400B0874EEC9CE15E1827023E9 /* SnapshotMessage.swift */; };
+		7936CE0EA1780C98D65C88F7673A1AE4 /* MiniNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F525471BD0757580D4A07016952CA54 /* MiniNotificationViewController.swift */; };
+		79C62C3C1DDEC7CD800672EA0C27E1DB /* UIFontToNSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39CBEC4A6F25323D0A1029E517038B /* UIFontToNSDictionary.swift */; };
+		7A91DAFFFC4179F9D9F82F3A51133B41 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EA09172D6AE479BB102C53DEE394BE /* CoreTelephony.framework */; };
+		7FA3E2BB353FEEE6FFAE641D6E7DF8C7 /* Pods-BGTask-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2F9FAAB581624C8923E14B3587F46CD /* Pods-BGTask-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		818628EE039FDF3526EDD85ABAACCA10 /* CodelessBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D42E1E549C7C6067EE45406FDF8DA46 /* CodelessBinding.swift */; };
+		81C314D2B15412BE5A1F89D33AA046C8 /* UIControlBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EF8603F7287F14BDF8D453EE4763BF /* UIControlBinding.swift */; };
+		8873153444D34BFC00D28515DB937C42 /* CGRectToNSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2CD27B1201D6AD80D97BC0888DEEC /* CGRectToNSDictionary.swift */; };
+		8AD4D687804C6941D8A969BAE0A41C31 /* MixpanelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C66519841CF0FB08BCD574ED5D6480A /* MixpanelType.swift */; };
+		8B79A79FFD015D6AF8FACF2472690EC6 /* CGSizeToNSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DFB04E03BD097B6281F34320DCDA7 /* CGSizeToNSDictionary.swift */; };
+		8C1393641F1BAAD30419D607D94656E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFFD3D6224EE409849ED524C9D82E5C /* UIKit.framework */; };
+		8FD00D9A64B3F8116EFC585E737A0947 /* Tweak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ABB997816453148C7AE7451CC7DC89 /* Tweak.swift */; };
+		97A09D0F5312CEB5ADD57EFD4ABAAF53 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCDAB83644D17E0C3B50C4F403B6CFB /* Persistence.swift */; };
+		9DD108A404A4D59AA298BBF461AA4A36 /* FileLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7072454B99B0B96E8CF83B592EB7B80 /* FileLogging.swift */; };
+		9DE05D65A8B6D77B216B18106C5C1659 /* AnyTweak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313DCE27A0380E1CEE52CC375FEBE477 /* AnyTweak.swift */; };
+		A5DB0E7660524B5245E10585031DBE41 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDA67E4EA0AE197DBA7AAAAF9D2CF5C /* People.swift */; };
+		A724367CF9F98E7E7454D951D238F6A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDE9C94F5E22A6FA765E3292E4311CF /* Foundation.framework */; };
+		A80517A701925E12827487B91A474F08 /* TweakStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBB26FD2C0260626E2D1473D3166662 /* TweakStore.swift */; };
+		B12898542F95429EAAF1B81B2C667482 /* MPCloseButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5853401FC64A71273976BDEFF6C29B79 /* MPCloseButton@2x.png */; };
+		B22680E2346C9B3959F945A5D796F9C8 /* InAppNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF80C6553DD217902490B8BE1772A978 /* InAppNotifications.swift */; };
+		B3366C3032D6620BC283A47BE125DDFF /* placeholder-image.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CCCA60E4845A977F4FE7F1A31B4D28 /* placeholder-image.png */; };
+		B6432F1D5D4678D81249CAFF2EADC273 /* JSONHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19533E7CBB7BE66B889BA1F95EBEA704 /* JSONHandler.swift */; };
+		BB5C8736F67C3890A98258A10FAE07DF /* ObjectSerializerContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B281850A11A77D91AD69183B558A7D7 /* ObjectSerializerContext.swift */; };
+		C1A1F62F2D3D02D8B93D861362706806 /* CGAffineTransformToNSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E5126CA4BABFECBED6FEFD4C334297 /* CGAffineTransformToNSDictionary.swift */; };
+		C1E9C1C8B981097A7A1AE5852EFB73A1 /* Decide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332A8C3C35D14CBBD2D7E0EF4C5DEFDC /* Decide.swift */; };
+		C397791B55DFFAE3DDF9A4C5B0FE65F9 /* TweakableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D96EAD2A7D7D8C57C611B4013C52F8C /* TweakableType.swift */; };
+		C885F53D53EE4EE41E6F9B067A543EB0 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9E634BA4F7F9AAC2C9847B91436D2D /* SSLSecurity.swift */; };
+		CAF6F0C64EA2022CC291C5CAEAA4EC03 /* SHA256.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A621D6CFD5D3CD6B57B6053CEC41932 /* SHA256.swift */; };
+		CB4C5D9F23547281C33E7294BB6F135E /* Clip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A224F3CBE3D31BC6CC5E3A77900C44BE /* Clip.swift */; };
+		D1005C53634EB895D367865D35F1A523 /* InAppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC08AD71540840764EDEE79FB9FD564 /* InAppButton.swift */; };
+		D587F87FCBF4F4904D2B867A0A316804 /* Variant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E76D721A58DB36EAE70D360C2D0AD0 /* Variant.swift */; };
+		D92C6811EDD34F5F665971420BA1B27C /* TweakPersistency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1CB19563B2A4D195A988DBE9843883 /* TweakPersistency.swift */; };
+		DB5E520C6F11D587F69F0427001DCE8D /* WebSocketWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDE8C0E971326FCDE442C2B7F9765CB /* WebSocketWrapper.swift */; };
+		DBC00C999C36E4D43636A0B2DBBA98FF /* Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4DA0BB11A0927E7A54233DCF2AAA8C /* Swizzle.swift */; };
+		DC92E3AAD8B6CBC55DCD055B0388457A /* IdentityTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4EE48BA444263BC0B9E15FBEE2AC24 /* IdentityTransformer.swift */; };
+		E0B4D30433EA04C865ADB31AA1B17237 /* MiniNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38CB9164BF4B0F7022D9CE812A14F313 /* MiniNotificationViewController.xib */; };
+		E184FEDCB4BAEB29B0CB1DBB20B39826 /* UIColorToNSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0725323DCFF09E5A81EB69C43242F6E4 /* UIColorToNSString.swift */; };
+		E44ED2FA0729426B1E1E9F13346969AE /* TakeoverNotificationViewController~iphoneportrait.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1687F1B377C79D3BFD10CB2B30B53A9 /* TakeoverNotificationViewController~iphoneportrait.xib */; };
+		E5ADA782BC048AB19430069EE18EA99E /* TakeoverNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5B06D55CD68FE3CB7395B8CC856A5 /* TakeoverNotification.swift */; };
+		E7B7360170289A53ECD920FDCDA77FC2 /* InAppNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F09F34D599C2624E7557AD13067D138 /* InAppNotification.swift */; };
+		EAC20184A508FD4E6117E09676FAFBEE /* BaseWebSocketMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA84A1E5E3C5793CDEFBFA0156825D1 /* BaseWebSocketMessage.swift */; };
+		F28EE4D9E0A45A33811241C128466A2C /* AutomaticEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF10FC7D2B17A79796140207331BE8B8 /* AutomaticEvents.swift */; };
+		F6F580693D07BBFA8FE75ABB3F3631EE /* UIViewSelectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0056FCA96997B333EDE780AD0A99E8F8 /* UIViewSelectors.swift */; };
+		F7D48C4C42BDB0D7C3F42B014D307E1B /* PrintLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BC8D8288F6A789D0DB1AC9F867280B /* PrintLogging.swift */; };
+		F8AA389C94243546E1C0C384C23D4911 /* ChangeMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E999CF0C47C0DFD1A2D8A485D5577D83 /* ChangeMessage.swift */; };
+		FB03004679962FFF1ADCEE9E04DE81D1 /* MPCloseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DA6E611C82187DF606CCC545B3D79065 /* MPCloseButton.png */; };
+		FB081E2A5F396CDB94140394FB293DD2 /* VariantTweak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3045BA259072A400763F115B4F7F1F /* VariantTweak.swift */; };
+		FBE6FEEB50B1087B3409EC0D62054450 /* Mixpanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838F0695604359D5D79FD1B689911271 /* Mixpanel.swift */; };
+		FC4C212DD871968C9894C7B11E42E135 /* Mixpanel-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB94CD5FA40F78A4179F5C60C90F51EE /* Mixpanel-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFA16F5216BB0F98D5AF970E8F3FE115 /* TweakLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7425E36A8E1563E641F7FC18FC25E793 /* TweakLibrary.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00274E1871E4F27D89F8FDBDE5122917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8CCBFF8B4E68F3C656B105AF29633B8;
+			remoteInfo = "Mixpanel-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0025A21AB8D7A7FABC9BF62DFF793293 /* Pods-BGTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BGTask.release.xcconfig"; sourceTree = "<group>"; };
+		0056FCA96997B333EDE780AD0A99E8F8 /* UIViewSelectors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewSelectors.swift; path = Mixpanel/UIViewSelectors.swift; sourceTree = "<group>"; };
+		0126CA802F282C792ADB08E429B7A227 /* NSAttributedStringToNSDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSAttributedStringToNSDictionary.swift; path = Mixpanel/NSAttributedStringToNSDictionary.swift; sourceTree = "<group>"; };
+		01E76D721A58DB36EAE70D360C2D0AD0 /* Variant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Variant.swift; path = Mixpanel/Variant.swift; sourceTree = "<group>"; };
+		0725323DCFF09E5A81EB69C43242F6E4 /* UIColorToNSString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorToNSString.swift; path = Mixpanel/UIColorToNSString.swift; sourceTree = "<group>"; };
+		096080E804AF1A70CF622CA90E7442DF /* ObjectSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectSerializer.swift; path = Mixpanel/ObjectSerializer.swift; sourceTree = "<group>"; };
+		09AC94A0A4855E1317A2DA99DD43F96C /* ObjectFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectFilter.swift; path = Mixpanel/ObjectFilter.swift; sourceTree = "<group>"; };
+		0BC46251FFB25F65B0849118A8FF9715 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C66519841CF0FB08BCD574ED5D6480A /* MixpanelType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MixpanelType.swift; path = Mixpanel/MixpanelType.swift; sourceTree = "<group>"; };
+		0ED2CD27B1201D6AD80D97BC0888DEEC /* CGRectToNSDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectToNSDictionary.swift; path = Mixpanel/CGRectToNSDictionary.swift; sourceTree = "<group>"; };
+		0F4DA0BB11A0927E7A54233DCF2AAA8C /* Swizzle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Swizzle.swift; path = Mixpanel/Swizzle.swift; sourceTree = "<group>"; };
+		0F51871A0F2E37057D20F48460431C60 /* Pods-BGTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BGTask.debug.xcconfig"; sourceTree = "<group>"; };
+		16AE78EB7580F48CEC65F1BB349708DB /* TweakCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweakCollection.swift; path = Mixpanel/TweakCollection.swift; sourceTree = "<group>"; };
+		19533E7CBB7BE66B889BA1F95EBEA704 /* JSONHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONHandler.swift; path = Mixpanel/JSONHandler.swift; sourceTree = "<group>"; };
+		1A4EE48BA444263BC0B9E15FBEE2AC24 /* IdentityTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IdentityTransformer.swift; path = Mixpanel/IdentityTransformer.swift; sourceTree = "<group>"; };
+		1C27F6FB02F5D8CE0C01FD09EE1C5141 /* TakeoverNotificationViewController~ipad.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "TakeoverNotificationViewController~ipad.xib"; path = "Mixpanel/TakeoverNotificationViewController~ipad.xib"; sourceTree = "<group>"; };
+		1CBB26FD2C0260626E2D1473D3166662 /* TweakStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweakStore.swift; path = Mixpanel/TweakStore.swift; sourceTree = "<group>"; };
+		20A454D6B1930923E5E162BC28E001B0 /* TweakBinding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweakBinding.swift; path = Mixpanel/TweakBinding.swift; sourceTree = "<group>"; };
+		2A905EF177202F491903BD12225E6BEC /* Mixpanel-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Mixpanel-swift.modulemap"; sourceTree = "<group>"; };
+		2E3045BA259072A400763F115B4F7F1F /* VariantTweak.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VariantTweak.swift; path = Mixpanel/VariantTweak.swift; sourceTree = "<group>"; };
+		2F525471BD0757580D4A07016952CA54 /* MiniNotificationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MiniNotificationViewController.swift; path = Mixpanel/MiniNotificationViewController.swift; sourceTree = "<group>"; };
+		2FCB69CCDA7B8756F6BAC3BBCE1B3F4F /* CGPointToNSDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPointToNSDictionary.swift; path = Mixpanel/CGPointToNSDictionary.swift; sourceTree = "<group>"; };
+		313DCE27A0380E1CEE52CC375FEBE477 /* AnyTweak.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyTweak.swift; path = Mixpanel/AnyTweak.swift; sourceTree = "<group>"; };
+		31C5DCDD973BFF266CEA812BDAC2DE6D /* Flush.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flush.swift; path = Mixpanel/Flush.swift; sourceTree = "<group>"; };
+		322CB0D14D5FB9D3A2692C4E9E7F7EBF /* VariantAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VariantAction.swift; path = Mixpanel/VariantAction.swift; sourceTree = "<group>"; };
+		332A8C3C35D14CBBD2D7E0EF4C5DEFDC /* Decide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decide.swift; path = Mixpanel/Decide.swift; sourceTree = "<group>"; };
+		338F010AE73043EB904BF3460D97AC86 /* DecideRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecideRequest.swift; path = Mixpanel/DecideRequest.swift; sourceTree = "<group>"; };
+		38CB9164BF4B0F7022D9CE812A14F313 /* MiniNotificationViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MiniNotificationViewController.xib; path = Mixpanel/MiniNotificationViewController.xib; sourceTree = "<group>"; };
+		3D42E1E549C7C6067EE45406FDF8DA46 /* CodelessBinding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodelessBinding.swift; path = Mixpanel/CodelessBinding.swift; sourceTree = "<group>"; };
+		48C6145A790E55403F59F1BCA48CA2E3 /* TweakMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweakMessage.swift; path = Mixpanel/TweakMessage.swift; sourceTree = "<group>"; };
+		491D95400B0874EEC9CE15E1827023E9 /* SnapshotMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapshotMessage.swift; path = Mixpanel/SnapshotMessage.swift; sourceTree = "<group>"; };
+		4A2CAAA71EC89F2CF35EC8AA1633CD5E /* TweakClusterType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweakClusterType.swift; path = Mixpanel/TweakClusterType.swift; sourceTree = "<group>"; };
+		5844235CBEABD6A2F637ABEB4A001F5B /* TakeoverNotificationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TakeoverNotificationViewController.swift; path = Mixpanel/TakeoverNotificationViewController.swift; sourceTree = "<group>"; };
+		5853401FC64A71273976BDEFF6C29B79 /* MPCloseButton@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "MPCloseButton@2x.png"; path = "Mixpanel/MPCloseButton@2x.png"; sourceTree = "<group>"; };
+		5932122D0836DB3F72C431E1A83EEE57 /* AutomaticProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutomaticProperties.swift; path = Mixpanel/AutomaticProperties.swift; sourceTree = "<group>"; };
+		5CBD152F224BB4C537EF0267334D7F03 /* Pods-BGTask-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BGTask-acknowledgements.plist"; sourceTree = "<group>"; };
+		5DB10774D2181EA07C97060820F1B5EF /* Track.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Track.swift; path = Mixpanel/Track.swift; sourceTree = "<group>"; };
+		5DDC6EA7F1C9CF1A217D70812B40F21C /* Pods-BGTask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BGTask-dummy.m"; sourceTree = "<group>"; };
+		5E229F38A24E681683C8DF537CC8CD1F /* UIImageToNSDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageToNSDictionary.swift; path = Mixpanel/UIImageToNSDictionary.swift; sourceTree = "<group>"; };
+		619FA74FBF91AD3FEDFF570D32DB2560 /* FlushRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlushRequest.swift; path = Mixpanel/FlushRequest.swift; sourceTree = "<group>"; };
+		66ADB9D42A0A00EE3D50498CF469432D /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Mixpanel/WebSocket.swift; sourceTree = "<group>"; };
+		674946B2BA28861F467FEC453FC9C437 /* Mixpanel-swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mixpanel-swift.xcconfig"; sourceTree = "<group>"; };
+		68ABB997816453148C7AE7451CC7DC89 /* Tweak.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tweak.swift; path = Mixpanel/Tweak.swift; sourceTree = "<group>"; };
+		6CC08AD71540840764EDEE79FB9FD564 /* InAppButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppButton.swift; path = Mixpanel/InAppButton.swift; sourceTree = "<group>"; };
+		6E1CB19563B2A4D195A988DBE9843883 /* TweakPersistency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweakPersistency.swift; path = Mixpanel/TweakPersistency.swift; sourceTree = "<group>"; };
+		740788AC435FD84310CFC381506D8832 /* BindingMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BindingMessage.swift; path = Mixpanel/BindingMessage.swift; sourceTree = "<group>"; };
+		7425E36A8E1563E641F7FC18FC25E793 /* TweakLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweakLibrary.swift; path = Mixpanel/TweakLibrary.swift; sourceTree = "<group>"; };
+		76E5126CA4BABFECBED6FEFD4C334297 /* CGAffineTransformToNSDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGAffineTransformToNSDictionary.swift; path = Mixpanel/CGAffineTransformToNSDictionary.swift; sourceTree = "<group>"; };
+		78E6A5894D20A0EFA971D91405F42028 /* Pods-BGTask-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BGTask-frameworks.sh"; sourceTree = "<group>"; };
+		790ADFC29BB00D4BA073FC45E099F3AF /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Mixpanel/Logger.swift; sourceTree = "<group>"; };
+		79C40E90FDA39FE2A415793C79CF229C /* Pods-BGTask-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BGTask-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B281850A11A77D91AD69183B558A7D7 /* ObjectSerializerContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectSerializerContext.swift; path = Mixpanel/ObjectSerializerContext.swift; sourceTree = "<group>"; };
+		7B9B8340549FC414512356EF345AAAD2 /* ObjectSerializerConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectSerializerConfig.swift; path = Mixpanel/ObjectSerializerConfig.swift; sourceTree = "<group>"; };
+		7BCDAB83644D17E0C3B50C4F403B6CFB /* Persistence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Persistence.swift; path = Mixpanel/Persistence.swift; sourceTree = "<group>"; };
+		7EDE8C0E971326FCDE442C2B7F9765CB /* WebSocketWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketWrapper.swift; path = Mixpanel/WebSocketWrapper.swift; sourceTree = "<group>"; };
+		7FBFECB8B4DB571192E06D5B67204A0A /* Mixpanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mixpanel.framework; path = "Mixpanel-swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		838F0695604359D5D79FD1B689911271 /* Mixpanel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mixpanel.swift; path = Mixpanel/Mixpanel.swift; sourceTree = "<group>"; };
+		8A39CBEC4A6F25323D0A1029E517038B /* UIFontToNSDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIFontToNSDictionary.swift; path = Mixpanel/UIFontToNSDictionary.swift; sourceTree = "<group>"; };
+		8A621D6CFD5D3CD6B57B6053CEC41932 /* SHA256.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA256.swift; path = Mixpanel/SHA256.swift; sourceTree = "<group>"; };
+		8BDE9C94F5E22A6FA765E3292E4311CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8D888F93B90C3D59CA788B8DC92E9172 /* MPCloseButton@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "MPCloseButton@3x.png"; path = "Mixpanel/MPCloseButton@3x.png"; sourceTree = "<group>"; };
+		8F09F34D599C2624E7557AD13067D138 /* InAppNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppNotification.swift; path = Mixpanel/InAppNotification.swift; sourceTree = "<group>"; };
+		90069736E99E4C73B4BB1762B771B320 /* MixpanelInstance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MixpanelInstance.swift; path = Mixpanel/MixpanelInstance.swift; sourceTree = "<group>"; };
+		91B5F576BC114150F2A1F39E94F4352B /* Pods_BGTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BGTask.framework; path = "Pods-BGTask.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D96EAD2A7D7D8C57C611B4013C52F8C /* TweakableType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweakableType.swift; path = Mixpanel/TweakableType.swift; sourceTree = "<group>"; };
+		9DEBAADF8F5A5889DB810F79FD230355 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0095E52D5C42283473709A79897736D /* UIEdgeInsetsToNSDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIEdgeInsetsToNSDictionary.swift; path = Mixpanel/UIEdgeInsetsToNSDictionary.swift; sourceTree = "<group>"; };
+		A173C9B52D83A47633D3FE24F81A903C /* ApplicationStateSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplicationStateSerializer.swift; path = Mixpanel/ApplicationStateSerializer.swift; sourceTree = "<group>"; };
+		A224F3CBE3D31BC6CC5E3A77900C44BE /* Clip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Clip.swift; path = Mixpanel/Clip.swift; sourceTree = "<group>"; };
+		A26FD723F29F3CBF900AA78E29525C23 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Mixpanel/Error.swift; sourceTree = "<group>"; };
+		A47DB28AB7D8C1E3FC31975A23F6ACDD /* TweakViewData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweakViewData.swift; path = Mixpanel/TweakViewData.swift; sourceTree = "<group>"; };
+		A5EF8603F7287F14BDF8D453EE4763BF /* UIControlBinding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIControlBinding.swift; path = Mixpanel/UIControlBinding.swift; sourceTree = "<group>"; };
+		A7BC8D8288F6A789D0DB1AC9F867280B /* PrintLogging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrintLogging.swift; path = Mixpanel/PrintLogging.swift; sourceTree = "<group>"; };
+		AA42C37AB36F3C7466269878698A0123 /* Pods-BGTask.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BGTask.modulemap"; sourceTree = "<group>"; };
+		AD16A3F8B5A811F22678F367535D3CCB /* Codeless.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Codeless.swift; path = Mixpanel/Codeless.swift; sourceTree = "<group>"; };
+		BF040CB0A391F56C245CD52EF018CE87 /* Mixpanel-swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mixpanel-swift-prefix.pch"; sourceTree = "<group>"; };
+		BF80C6553DD217902490B8BE1772A978 /* InAppNotifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppNotifications.swift; path = Mixpanel/InAppNotifications.swift; sourceTree = "<group>"; };
+		CA9E634BA4F7F9AAC2C9847B91436D2D /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Mixpanel/SSLSecurity.swift; sourceTree = "<group>"; };
+		CCEE554F52B4F77BC1FDE1CF04046C40 /* TweakGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TweakGroup.swift; path = Mixpanel/TweakGroup.swift; sourceTree = "<group>"; };
+		CEFFD3D6224EE409849ED524C9D82E5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D39294509ECECDA546AC8E1CF4E88ECE /* DisconnectMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisconnectMessage.swift; path = Mixpanel/DisconnectMessage.swift; sourceTree = "<group>"; };
+		D528ADC861ACB7B29BF4996E2DB9696C /* ClearMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClearMessage.swift; path = Mixpanel/ClearMessage.swift; sourceTree = "<group>"; };
+		D7877E06C194538D8F2A90B0D7E49CA2 /* TakeoverNotificationViewController~iphonelandscape.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "TakeoverNotificationViewController~iphonelandscape.xib"; path = "Mixpanel/TakeoverNotificationViewController~iphonelandscape.xib"; sourceTree = "<group>"; };
+		D8C6647BBF93B96097EE248C733C9F4E /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = Mixpanel/MD5.swift; sourceTree = "<group>"; };
+		DA3022B7BE61752F39F3427D4842D1B1 /* MiniNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MiniNotification.swift; path = Mixpanel/MiniNotification.swift; sourceTree = "<group>"; };
+		DA6E611C82187DF606CCC545B3D79065 /* MPCloseButton.png */ = {isa = PBXFileReference; includeInIndex = 1; name = MPCloseButton.png; path = Mixpanel/MPCloseButton.png; sourceTree = "<group>"; };
+		DBE118FA758754B83BBD2A5C08DFC40C /* DeviceInfoMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceInfoMessage.swift; path = Mixpanel/DeviceInfoMessage.swift; sourceTree = "<group>"; };
+		E1687F1B377C79D3BFD10CB2B30B53A9 /* TakeoverNotificationViewController~iphoneportrait.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "TakeoverNotificationViewController~iphoneportrait.xib"; path = "Mixpanel/TakeoverNotificationViewController~iphoneportrait.xib"; sourceTree = "<group>"; };
+		E2F9FAAB581624C8923E14B3587F46CD /* Pods-BGTask-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BGTask-umbrella.h"; sourceTree = "<group>"; };
+		E4CCCA60E4845A977F4FE7F1A31B4D28 /* placeholder-image.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "placeholder-image.png"; path = "Mixpanel/placeholder-image.png"; sourceTree = "<group>"; };
+		E5CA1B3C31B38FF1CA59E3FC3A18E8A0 /* ObjectSelector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectSelector.swift; path = Mixpanel/ObjectSelector.swift; sourceTree = "<group>"; };
+		E7072454B99B0B96E8CF83B592EB7B80 /* FileLogging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileLogging.swift; path = Mixpanel/FileLogging.swift; sourceTree = "<group>"; };
+		E7192892032423E003A225E0093D0281 /* Network.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Network.swift; path = Mixpanel/Network.swift; sourceTree = "<group>"; };
+		E7EA09172D6AE479BB102C53DEE394BE /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		E999CF0C47C0DFD1A2D8A485D5577D83 /* ChangeMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChangeMessage.swift; path = Mixpanel/ChangeMessage.swift; sourceTree = "<group>"; };
+		E9A335E8C1DF0D62AD7F6ACDF4FB89C0 /* UITableViewBinding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewBinding.swift; path = Mixpanel/UITableViewBinding.swift; sourceTree = "<group>"; };
+		EC2DFB04E03BD097B6281F34320DCDA7 /* CGSizeToNSDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGSizeToNSDictionary.swift; path = Mixpanel/CGSizeToNSDictionary.swift; sourceTree = "<group>"; };
+		ECB562937BFE29062F03ED9ABCB632BA /* Mixpanel-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mixpanel-swift-dummy.m"; sourceTree = "<group>"; };
+		EDA84A1E5E3C5793CDEFBFA0156825D1 /* BaseWebSocketMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseWebSocketMessage.swift; path = Mixpanel/BaseWebSocketMessage.swift; sourceTree = "<group>"; };
+		EEDA67E4EA0AE197DBA7AAAAF9D2CF5C /* People.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = People.swift; path = Mixpanel/People.swift; sourceTree = "<group>"; };
+		F08FE743C4EA29D175FB1F7E9F877B96 /* BaseNotificationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseNotificationViewController.swift; path = Mixpanel/BaseNotificationViewController.swift; sourceTree = "<group>"; };
+		F3F5B06D55CD68FE3CB7395B8CC856A5 /* TakeoverNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TakeoverNotification.swift; path = Mixpanel/TakeoverNotification.swift; sourceTree = "<group>"; };
+		F520302AC27E32E5AC987DC3CACA3C9E /* ObjectIdentityProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectIdentityProvider.swift; path = Mixpanel/ObjectIdentityProvider.swift; sourceTree = "<group>"; };
+		F8D733ABBD5FF978F8A84589A67BA69C /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Mixpanel/Constants.swift; sourceTree = "<group>"; };
+		FB94CD5FA40F78A4179F5C60C90F51EE /* Mixpanel-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mixpanel-swift-umbrella.h"; sourceTree = "<group>"; };
+		FE8EC8C60966E237B7CE7C41FCAE80BA /* Pods-BGTask-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BGTask-resources.sh"; sourceTree = "<group>"; };
+		FF10FC7D2B17A79796140207331BE8B8 /* AutomaticEvents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutomaticEvents.swift; path = Mixpanel/AutomaticEvents.swift; sourceTree = "<group>"; };
+		FF36A03AD32ADBA943CC091EDAF655DD /* ABTesting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABTesting.swift; path = Mixpanel/ABTesting.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FD6F62F9C9B733B0D41F566650F4769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A91DAFFFC4179F9D9F82F3A51133B41 /* CoreTelephony.framework in Frameworks */,
+				5CB314D2C0CFBA580BEA8C9129E468AB /* Foundation.framework in Frameworks */,
+				8C1393641F1BAAD30419D607D94656E3 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79151121E7C74BAB2FBB2B681C672598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A724367CF9F98E7E7454D951D238F6A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E4D087B8760C2A14791795919D124A1 /* Pods-BGTask */ = {
+			isa = PBXGroup;
+			children = (
+				0BC46251FFB25F65B0849118A8FF9715 /* Info.plist */,
+				AA42C37AB36F3C7466269878698A0123 /* Pods-BGTask.modulemap */,
+				79C40E90FDA39FE2A415793C79CF229C /* Pods-BGTask-acknowledgements.markdown */,
+				5CBD152F224BB4C537EF0267334D7F03 /* Pods-BGTask-acknowledgements.plist */,
+				5DDC6EA7F1C9CF1A217D70812B40F21C /* Pods-BGTask-dummy.m */,
+				78E6A5894D20A0EFA971D91405F42028 /* Pods-BGTask-frameworks.sh */,
+				FE8EC8C60966E237B7CE7C41FCAE80BA /* Pods-BGTask-resources.sh */,
+				E2F9FAAB581624C8923E14B3587F46CD /* Pods-BGTask-umbrella.h */,
+				0F51871A0F2E37057D20F48460431C60 /* Pods-BGTask.debug.xcconfig */,
+				0025A21AB8D7A7FABC9BF62DFF793293 /* Pods-BGTask.release.xcconfig */,
+			);
+			name = "Pods-BGTask";
+			path = "Target Support Files/Pods-BGTask";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E94C4E9834B2EAF7AB2549517AA4E25B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		495C0CAA732432DC3433C67D5E39C977 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E4D087B8760C2A14791795919D124A1 /* Pods-BGTask */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6A2A1C501DCC6C97907DB771A81EC0B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6BCC6205D51AB2895045248C1C6F944 /* Mixpanel-swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				6A2A1C501DCC6C97907DB771A81EC0B9 /* Pods */,
+				E18729DF9A729A2D05F82EA785463649 /* Products */,
+				495C0CAA732432DC3433C67D5E39C977 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B743E7F337409818C969F6545CAC0405 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38CB9164BF4B0F7022D9CE812A14F313 /* MiniNotificationViewController.xib */,
+				DA6E611C82187DF606CCC545B3D79065 /* MPCloseButton.png */,
+				5853401FC64A71273976BDEFF6C29B79 /* MPCloseButton@2x.png */,
+				8D888F93B90C3D59CA788B8DC92E9172 /* MPCloseButton@3x.png */,
+				E4CCCA60E4845A977F4FE7F1A31B4D28 /* placeholder-image.png */,
+				1C27F6FB02F5D8CE0C01FD09EE1C5141 /* TakeoverNotificationViewController~ipad.xib */,
+				D7877E06C194538D8F2A90B0D7E49CA2 /* TakeoverNotificationViewController~iphonelandscape.xib */,
+				E1687F1B377C79D3BFD10CB2B30B53A9 /* TakeoverNotificationViewController~iphoneportrait.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C6BCC6205D51AB2895045248C1C6F944 /* Mixpanel-swift */ = {
+			isa = PBXGroup;
+			children = (
+				FF36A03AD32ADBA943CC091EDAF655DD /* ABTesting.swift */,
+				313DCE27A0380E1CEE52CC375FEBE477 /* AnyTweak.swift */,
+				A173C9B52D83A47633D3FE24F81A903C /* ApplicationStateSerializer.swift */,
+				FF10FC7D2B17A79796140207331BE8B8 /* AutomaticEvents.swift */,
+				5932122D0836DB3F72C431E1A83EEE57 /* AutomaticProperties.swift */,
+				F08FE743C4EA29D175FB1F7E9F877B96 /* BaseNotificationViewController.swift */,
+				EDA84A1E5E3C5793CDEFBFA0156825D1 /* BaseWebSocketMessage.swift */,
+				740788AC435FD84310CFC381506D8832 /* BindingMessage.swift */,
+				76E5126CA4BABFECBED6FEFD4C334297 /* CGAffineTransformToNSDictionary.swift */,
+				2FCB69CCDA7B8756F6BAC3BBCE1B3F4F /* CGPointToNSDictionary.swift */,
+				0ED2CD27B1201D6AD80D97BC0888DEEC /* CGRectToNSDictionary.swift */,
+				EC2DFB04E03BD097B6281F34320DCDA7 /* CGSizeToNSDictionary.swift */,
+				E999CF0C47C0DFD1A2D8A485D5577D83 /* ChangeMessage.swift */,
+				D528ADC861ACB7B29BF4996E2DB9696C /* ClearMessage.swift */,
+				A224F3CBE3D31BC6CC5E3A77900C44BE /* Clip.swift */,
+				AD16A3F8B5A811F22678F367535D3CCB /* Codeless.swift */,
+				3D42E1E549C7C6067EE45406FDF8DA46 /* CodelessBinding.swift */,
+				F8D733ABBD5FF978F8A84589A67BA69C /* Constants.swift */,
+				332A8C3C35D14CBBD2D7E0EF4C5DEFDC /* Decide.swift */,
+				338F010AE73043EB904BF3460D97AC86 /* DecideRequest.swift */,
+				DBE118FA758754B83BBD2A5C08DFC40C /* DeviceInfoMessage.swift */,
+				D39294509ECECDA546AC8E1CF4E88ECE /* DisconnectMessage.swift */,
+				A26FD723F29F3CBF900AA78E29525C23 /* Error.swift */,
+				E7072454B99B0B96E8CF83B592EB7B80 /* FileLogging.swift */,
+				31C5DCDD973BFF266CEA812BDAC2DE6D /* Flush.swift */,
+				619FA74FBF91AD3FEDFF570D32DB2560 /* FlushRequest.swift */,
+				1A4EE48BA444263BC0B9E15FBEE2AC24 /* IdentityTransformer.swift */,
+				6CC08AD71540840764EDEE79FB9FD564 /* InAppButton.swift */,
+				8F09F34D599C2624E7557AD13067D138 /* InAppNotification.swift */,
+				BF80C6553DD217902490B8BE1772A978 /* InAppNotifications.swift */,
+				19533E7CBB7BE66B889BA1F95EBEA704 /* JSONHandler.swift */,
+				790ADFC29BB00D4BA073FC45E099F3AF /* Logger.swift */,
+				D8C6647BBF93B96097EE248C733C9F4E /* MD5.swift */,
+				DA3022B7BE61752F39F3427D4842D1B1 /* MiniNotification.swift */,
+				2F525471BD0757580D4A07016952CA54 /* MiniNotificationViewController.swift */,
+				838F0695604359D5D79FD1B689911271 /* Mixpanel.swift */,
+				90069736E99E4C73B4BB1762B771B320 /* MixpanelInstance.swift */,
+				0C66519841CF0FB08BCD574ED5D6480A /* MixpanelType.swift */,
+				E7192892032423E003A225E0093D0281 /* Network.swift */,
+				0126CA802F282C792ADB08E429B7A227 /* NSAttributedStringToNSDictionary.swift */,
+				09AC94A0A4855E1317A2DA99DD43F96C /* ObjectFilter.swift */,
+				F520302AC27E32E5AC987DC3CACA3C9E /* ObjectIdentityProvider.swift */,
+				E5CA1B3C31B38FF1CA59E3FC3A18E8A0 /* ObjectSelector.swift */,
+				096080E804AF1A70CF622CA90E7442DF /* ObjectSerializer.swift */,
+				7B9B8340549FC414512356EF345AAAD2 /* ObjectSerializerConfig.swift */,
+				7B281850A11A77D91AD69183B558A7D7 /* ObjectSerializerContext.swift */,
+				EEDA67E4EA0AE197DBA7AAAAF9D2CF5C /* People.swift */,
+				7BCDAB83644D17E0C3B50C4F403B6CFB /* Persistence.swift */,
+				A7BC8D8288F6A789D0DB1AC9F867280B /* PrintLogging.swift */,
+				8A621D6CFD5D3CD6B57B6053CEC41932 /* SHA256.swift */,
+				491D95400B0874EEC9CE15E1827023E9 /* SnapshotMessage.swift */,
+				CA9E634BA4F7F9AAC2C9847B91436D2D /* SSLSecurity.swift */,
+				0F4DA0BB11A0927E7A54233DCF2AAA8C /* Swizzle.swift */,
+				F3F5B06D55CD68FE3CB7395B8CC856A5 /* TakeoverNotification.swift */,
+				5844235CBEABD6A2F637ABEB4A001F5B /* TakeoverNotificationViewController.swift */,
+				5DB10774D2181EA07C97060820F1B5EF /* Track.swift */,
+				68ABB997816453148C7AE7451CC7DC89 /* Tweak.swift */,
+				9D96EAD2A7D7D8C57C611B4013C52F8C /* TweakableType.swift */,
+				20A454D6B1930923E5E162BC28E001B0 /* TweakBinding.swift */,
+				4A2CAAA71EC89F2CF35EC8AA1633CD5E /* TweakClusterType.swift */,
+				16AE78EB7580F48CEC65F1BB349708DB /* TweakCollection.swift */,
+				CCEE554F52B4F77BC1FDE1CF04046C40 /* TweakGroup.swift */,
+				7425E36A8E1563E641F7FC18FC25E793 /* TweakLibrary.swift */,
+				48C6145A790E55403F59F1BCA48CA2E3 /* TweakMessage.swift */,
+				6E1CB19563B2A4D195A988DBE9843883 /* TweakPersistency.swift */,
+				1CBB26FD2C0260626E2D1473D3166662 /* TweakStore.swift */,
+				A47DB28AB7D8C1E3FC31975A23F6ACDD /* TweakViewData.swift */,
+				0725323DCFF09E5A81EB69C43242F6E4 /* UIColorToNSString.swift */,
+				A5EF8603F7287F14BDF8D453EE4763BF /* UIControlBinding.swift */,
+				A0095E52D5C42283473709A79897736D /* UIEdgeInsetsToNSDictionary.swift */,
+				8A39CBEC4A6F25323D0A1029E517038B /* UIFontToNSDictionary.swift */,
+				5E229F38A24E681683C8DF537CC8CD1F /* UIImageToNSDictionary.swift */,
+				E9A335E8C1DF0D62AD7F6ACDF4FB89C0 /* UITableViewBinding.swift */,
+				0056FCA96997B333EDE780AD0A99E8F8 /* UIViewSelectors.swift */,
+				01E76D721A58DB36EAE70D360C2D0AD0 /* Variant.swift */,
+				322CB0D14D5FB9D3A2692C4E9E7F7EBF /* VariantAction.swift */,
+				2E3045BA259072A400763F115B4F7F1F /* VariantTweak.swift */,
+				66ADB9D42A0A00EE3D50498CF469432D /* WebSocket.swift */,
+				7EDE8C0E971326FCDE442C2B7F9765CB /* WebSocketWrapper.swift */,
+				B743E7F337409818C969F6545CAC0405 /* Resources */,
+				CD861C4EE389521BC48CC08EFAECB6E3 /* Support Files */,
+			);
+			name = "Mixpanel-swift";
+			path = "Mixpanel-swift";
+			sourceTree = "<group>";
+		};
+		CD861C4EE389521BC48CC08EFAECB6E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DEBAADF8F5A5889DB810F79FD230355 /* Info.plist */,
+				2A905EF177202F491903BD12225E6BEC /* Mixpanel-swift.modulemap */,
+				674946B2BA28861F467FEC453FC9C437 /* Mixpanel-swift.xcconfig */,
+				ECB562937BFE29062F03ED9ABCB632BA /* Mixpanel-swift-dummy.m */,
+				BF040CB0A391F56C245CD52EF018CE87 /* Mixpanel-swift-prefix.pch */,
+				FB94CD5FA40F78A4179F5C60C90F51EE /* Mixpanel-swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Mixpanel-swift";
+			sourceTree = "<group>";
+		};
+		E18729DF9A729A2D05F82EA785463649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FBFECB8B4DB571192E06D5B67204A0A /* Mixpanel.framework */,
+				91B5F576BC114150F2A1F39E94F4352B /* Pods_BGTask.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E94C4E9834B2EAF7AB2549517AA4E25B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E7EA09172D6AE479BB102C53DEE394BE /* CoreTelephony.framework */,
+				8BDE9C94F5E22A6FA765E3292E4311CF /* Foundation.framework */,
+				CEFFD3D6224EE409849ED524C9D82E5C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7C3A85CB9B6E979470DE0833B7053FD9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA3E2BB353FEEE6FFAE641D6E7DF8C7 /* Pods-BGTask-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0B7334F981F245F8AD355A85ACF790 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4C212DD871968C9894C7B11E42E135 /* Mixpanel-swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A881FD83F3CEE6D0D5194B51A9B119FA /* Pods-BGTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 313ADB2FA660099AD709045424003E07 /* Build configuration list for PBXNativeTarget "Pods-BGTask" */;
+			buildPhases = (
+				95D9F2F789911628615040FB1F7C85B3 /* Sources */,
+				79151121E7C74BAB2FBB2B681C672598 /* Frameworks */,
+				7C3A85CB9B6E979470DE0833B7053FD9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C2F90BB73A340992E07E8BCC220F34 /* PBXTargetDependency */,
+			);
+			name = "Pods-BGTask";
+			productName = "Pods-BGTask";
+			productReference = 91B5F576BC114150F2A1F39E94F4352B /* Pods_BGTask.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8CCBFF8B4E68F3C656B105AF29633B8 /* Mixpanel-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E0A735E338663DAC9C1E081E0155427 /* Build configuration list for PBXNativeTarget "Mixpanel-swift" */;
+			buildPhases = (
+				D82EB7BDEA0547218AC287CB5ACD745D /* Sources */,
+				3FD6F62F9C9B733B0D41F566650F4769 /* Frameworks */,
+				B2E8D1D51C8366E99A5125B1ECC692F3 /* Resources */,
+				AE0B7334F981F245F8AD355A85ACF790 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mixpanel-swift";
+			productName = "Mixpanel-swift";
+			productReference = 7FBFECB8B4DB571192E06D5B67204A0A /* Mixpanel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E18729DF9A729A2D05F82EA785463649 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8CCBFF8B4E68F3C656B105AF29633B8 /* Mixpanel-swift */,
+				A881FD83F3CEE6D0D5194B51A9B119FA /* Pods-BGTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2E8D1D51C8366E99A5125B1ECC692F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B4D30433EA04C865ADB31AA1B17237 /* MiniNotificationViewController.xib in Resources */,
+				FB03004679962FFF1ADCEE9E04DE81D1 /* MPCloseButton.png in Resources */,
+				B12898542F95429EAAF1B81B2C667482 /* MPCloseButton@2x.png in Resources */,
+				079C24C5DA20AC7B805576F46674E912 /* MPCloseButton@3x.png in Resources */,
+				B3366C3032D6620BC283A47BE125DDFF /* placeholder-image.png in Resources */,
+				24003D5AFA04A580DAFA7B691FDB9DBF /* TakeoverNotificationViewController~ipad.xib in Resources */,
+				321FDA013AF39B60656575983929CD53 /* TakeoverNotificationViewController~iphonelandscape.xib in Resources */,
+				E44ED2FA0729426B1E1E9F13346969AE /* TakeoverNotificationViewController~iphoneportrait.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95D9F2F789911628615040FB1F7C85B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D4FBF88A98DBF5EE833C697E8FEDBD /* Pods-BGTask-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82EB7BDEA0547218AC287CB5ACD745D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57663596217B32F53071E5FFFCBFC929 /* ABTesting.swift in Sources */,
+				9DE05D65A8B6D77B216B18106C5C1659 /* AnyTweak.swift in Sources */,
+				2E53623C177636A00781307991DAE23C /* ApplicationStateSerializer.swift in Sources */,
+				F28EE4D9E0A45A33811241C128466A2C /* AutomaticEvents.swift in Sources */,
+				135880DC8923AA57D8FD6318C7C31A92 /* AutomaticProperties.swift in Sources */,
+				5BFB811AD7CDC6044B4D8F6D48114CCB /* BaseNotificationViewController.swift in Sources */,
+				EAC20184A508FD4E6117E09676FAFBEE /* BaseWebSocketMessage.swift in Sources */,
+				19FAA0082D9170D99247E106A40809CF /* BindingMessage.swift in Sources */,
+				C1A1F62F2D3D02D8B93D861362706806 /* CGAffineTransformToNSDictionary.swift in Sources */,
+				01C1543A0BD31E128FA4BF74417BF6FA /* CGPointToNSDictionary.swift in Sources */,
+				8873153444D34BFC00D28515DB937C42 /* CGRectToNSDictionary.swift in Sources */,
+				8B79A79FFD015D6AF8FACF2472690EC6 /* CGSizeToNSDictionary.swift in Sources */,
+				F8AA389C94243546E1C0C384C23D4911 /* ChangeMessage.swift in Sources */,
+				26D0082A3CA9F756BA88B01A81784005 /* ClearMessage.swift in Sources */,
+				CB4C5D9F23547281C33E7294BB6F135E /* Clip.swift in Sources */,
+				4ABDDD533F366D55B32CD0B2F4019D40 /* Codeless.swift in Sources */,
+				818628EE039FDF3526EDD85ABAACCA10 /* CodelessBinding.swift in Sources */,
+				5869F9ABDA8BD63C7B2EC5FF28C344A4 /* Constants.swift in Sources */,
+				C1E9C1C8B981097A7A1AE5852EFB73A1 /* Decide.swift in Sources */,
+				2D129FCBD796C3D7EC3B6BE5E496A88D /* DecideRequest.swift in Sources */,
+				00D0E4F5EB0CF7F9938D0F48733C7253 /* DeviceInfoMessage.swift in Sources */,
+				0B4765B6672A37727F1BE5A9F28C4CEF /* DisconnectMessage.swift in Sources */,
+				0FF580E36008992ACEF86BF2E5721855 /* Error.swift in Sources */,
+				9DD108A404A4D59AA298BBF461AA4A36 /* FileLogging.swift in Sources */,
+				075C07EA3412D81C893556D1C95A1EB1 /* Flush.swift in Sources */,
+				54C4041C785072263803B9598AC95B5D /* FlushRequest.swift in Sources */,
+				DC92E3AAD8B6CBC55DCD055B0388457A /* IdentityTransformer.swift in Sources */,
+				D1005C53634EB895D367865D35F1A523 /* InAppButton.swift in Sources */,
+				E7B7360170289A53ECD920FDCDA77FC2 /* InAppNotification.swift in Sources */,
+				B22680E2346C9B3959F945A5D796F9C8 /* InAppNotifications.swift in Sources */,
+				B6432F1D5D4678D81249CAFF2EADC273 /* JSONHandler.swift in Sources */,
+				39F4BBBDE24D54C82075E20DAD99EA0C /* Logger.swift in Sources */,
+				2F6FA1C4A7104F937F7A6A4471110B57 /* MD5.swift in Sources */,
+				58A54CBD06B809E6945D52898261A9E1 /* MiniNotification.swift in Sources */,
+				7936CE0EA1780C98D65C88F7673A1AE4 /* MiniNotificationViewController.swift in Sources */,
+				2726D06E6C448FD44A581EA9C2B32B1C /* Mixpanel-swift-dummy.m in Sources */,
+				FBE6FEEB50B1087B3409EC0D62054450 /* Mixpanel.swift in Sources */,
+				1558FDF0C6167512B8E015B6B3DAB125 /* MixpanelInstance.swift in Sources */,
+				8AD4D687804C6941D8A969BAE0A41C31 /* MixpanelType.swift in Sources */,
+				5B318CCB08298703E31650040465C8D2 /* Network.swift in Sources */,
+				20745059AA8B68197F0E2CFD64F41B0F /* NSAttributedStringToNSDictionary.swift in Sources */,
+				0682474D2295E1CD4CD06B50128592B4 /* ObjectFilter.swift in Sources */,
+				0AB196AB47DB7B3BBEF56FD4CA7CC461 /* ObjectIdentityProvider.swift in Sources */,
+				04B17477AB6F72F3DC489AB559FE5928 /* ObjectSelector.swift in Sources */,
+				75B858A6B3157C873F01933402E6B513 /* ObjectSerializer.swift in Sources */,
+				6446C6D9A29B4CBAA4842232186C1E5C /* ObjectSerializerConfig.swift in Sources */,
+				BB5C8736F67C3890A98258A10FAE07DF /* ObjectSerializerContext.swift in Sources */,
+				A5DB0E7660524B5245E10585031DBE41 /* People.swift in Sources */,
+				97A09D0F5312CEB5ADD57EFD4ABAAF53 /* Persistence.swift in Sources */,
+				F7D48C4C42BDB0D7C3F42B014D307E1B /* PrintLogging.swift in Sources */,
+				CAF6F0C64EA2022CC291C5CAEAA4EC03 /* SHA256.swift in Sources */,
+				78B49A748D008F6D704BA517056AF658 /* SnapshotMessage.swift in Sources */,
+				C885F53D53EE4EE41E6F9B067A543EB0 /* SSLSecurity.swift in Sources */,
+				DBC00C999C36E4D43636A0B2DBBA98FF /* Swizzle.swift in Sources */,
+				E5ADA782BC048AB19430069EE18EA99E /* TakeoverNotification.swift in Sources */,
+				5A2302420D2F41AA5FAA5BE8EC933D10 /* TakeoverNotificationViewController.swift in Sources */,
+				16189F3E0FD953700154C3E2565AA9CD /* Track.swift in Sources */,
+				8FD00D9A64B3F8116EFC585E737A0947 /* Tweak.swift in Sources */,
+				C397791B55DFFAE3DDF9A4C5B0FE65F9 /* TweakableType.swift in Sources */,
+				3ECEF7C84869A34AEFEC76353B01FA5A /* TweakBinding.swift in Sources */,
+				0C9992B9B14EAD4DDD6A48EB08169B60 /* TweakClusterType.swift in Sources */,
+				1969B8E18F1E2C3ABC1EE89CE730CD04 /* TweakCollection.swift in Sources */,
+				3B3C34922003AF29A2D283E4827891E6 /* TweakGroup.swift in Sources */,
+				FFA16F5216BB0F98D5AF970E8F3FE115 /* TweakLibrary.swift in Sources */,
+				3E2E2ACB0FEA127B26FA3F4991EC3B42 /* TweakMessage.swift in Sources */,
+				D92C6811EDD34F5F665971420BA1B27C /* TweakPersistency.swift in Sources */,
+				A80517A701925E12827487B91A474F08 /* TweakStore.swift in Sources */,
+				74EEEC345B173899E07924836B16138A /* TweakViewData.swift in Sources */,
+				E184FEDCB4BAEB29B0CB1DBB20B39826 /* UIColorToNSString.swift in Sources */,
+				81C314D2B15412BE5A1F89D33AA046C8 /* UIControlBinding.swift in Sources */,
+				41BF58B3EA0721402636D5C0864BEC78 /* UIEdgeInsetsToNSDictionary.swift in Sources */,
+				79C62C3C1DDEC7CD800672EA0C27E1DB /* UIFontToNSDictionary.swift in Sources */,
+				41C5EE7E9B43479C01F4DE40478FAEA5 /* UIImageToNSDictionary.swift in Sources */,
+				22067253E66DA68A9F0E1C6DA2E183F7 /* UITableViewBinding.swift in Sources */,
+				F6F580693D07BBFA8FE75ABB3F3631EE /* UIViewSelectors.swift in Sources */,
+				D587F87FCBF4F4904D2B867A0A316804 /* Variant.swift in Sources */,
+				4069F3AC900666022F559F156EAB43E7 /* VariantAction.swift in Sources */,
+				FB081E2A5F396CDB94140394FB293DD2 /* VariantTweak.swift in Sources */,
+				46F9D15E698E5D98F0F169E1A77D2648 /* WebSocket.swift in Sources */,
+				DB5E520C6F11D587F69F0427001DCE8D /* WebSocketWrapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C2F90BB73A340992E07E8BCC220F34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Mixpanel-swift";
+			target = E8CCBFF8B4E68F3C656B105AF29633B8 /* Mixpanel-swift */;
+			targetProxy = 00274E1871E4F27D89F8FDBDE5122917 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4AEDD14ED3B38B96D2773FE563B7AB39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 674946B2BA28861F467FEC453FC9C437 /* Mixpanel-swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Mixpanel-swift/Mixpanel-swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mixpanel-swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Mixpanel-swift/Mixpanel-swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Mixpanel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77F9ED1ADC5EEDBA4409A629D104B44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 674946B2BA28861F467FEC453FC9C437 /* Mixpanel-swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Mixpanel-swift/Mixpanel-swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mixpanel-swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Mixpanel-swift/Mixpanel-swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Mixpanel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D9F1D582D7A91D9BE36BE934E5770BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0025A21AB8D7A7FABC9BF62DFF793293 /* Pods-BGTask.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BGTask/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BGTask/Pods-BGTask.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BGTask;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE392099E09DA469D184178FEAB765C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F51871A0F2E37057D20F48460431C60 /* Pods-BGTask.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BGTask/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BGTask/Pods-BGTask.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BGTask;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		313ADB2FA660099AD709045424003E07 /* Build configuration list for PBXNativeTarget "Pods-BGTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE392099E09DA469D184178FEAB765C1 /* Debug */,
+				7D9F1D582D7A91D9BE36BE934E5770BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E0A735E338663DAC9C1E081E0155427 /* Build configuration list for PBXNativeTarget "Mixpanel-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F9ED1ADC5EEDBA4409A629D104B44B /* Debug */,
+				4AEDD14ED3B38B96D2773FE563B7AB39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
