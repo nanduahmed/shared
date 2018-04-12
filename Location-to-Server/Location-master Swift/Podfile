@@ -1,0 +1,7 @@
+
+target 'Location' do
+
+pod 'Mixpanel'
+pod 'PubNub'
+
+end

@@ -1,0 +1,19 @@
+PODS:
+  - Mixpanel (3.0.8):
+    - Mixpanel/Mixpanel (= 3.0.8)
+  - Mixpanel/Mixpanel (3.0.8)
+  - PubNub (4.5.11):
+    - PubNub/Core (= 4.5.11)
+  - PubNub/Core (4.5.11)
+
+DEPENDENCIES:
+  - Mixpanel
+  - PubNub
+
+SPEC CHECKSUMS:
+  Mixpanel: 550a23d5dd95f8e9cda21e697661ffddbc8da46b
+  PubNub: bf767a13b65f0492f8a2f141d6af27d1e8746f2b
+
+PODFILE CHECKSUM: dc7d4634e8a041a167c268e9ead75f943d231802
+
+COCOAPODS: 1.1.1

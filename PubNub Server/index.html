@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>PubNub Message Sent</h1>
+
+<script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.3.3.js"></script>
+<script>
+function sendMessage(a, b) {
+        console.log("Yetter");
+        publish()
+
+    return a * b;
+}
+
+function publish() {
+   
+    pubnub = new PubNub({
+        publishKey : 'pub-c-7e624616-094f-4169-983a-1d42b97191c1',
+        subscribeKey : 'sub-c-df45b208-c3fb-11e6-b045-02ee2ddab7fe'
+    })
+       
+    function publishSampleMessage() {
+        console.log("Since we're publishing on subscribe connectEvent, we're sure we'll receive the following publish.");
+        var publishConfig = {
+            channel : "my_channel",
+            message : "Hello from PubNub Docs!"
+        }
+        pubnub.publish(publishConfig, function(status, response) {
+            console.log(status, response);
+        })
+    }
+       
+    pubnub.addListener({
+        status: function(statusEvent) {
+            if (statusEvent.category === "PNConnectedCategory") {
+                publishSampleMessage();
+            }
+        },
+        message: function(message) {
+            console.log("New Message!!", message);
+            var x = document.getElementById("myTable");
+            var row = x.insertRow(1)
+            var cell = row.insertCell(0);
+            cell.innerHTML = JSON.stringify(message.message)
+        },
+        presence: function(presenceEvent) {
+            // handle presence
+        }
+    })      
+    console.log("Subscribing..");
+    pubnub.subscribe({
+        channels: ['my_channel'] 
+    });
+};
+</script>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = sendMessage(2,2)">
+Send Message</button>
+
+<table id="myTable">
+  <tr>
+    <td>Location </td>
+    <td id="t1">XX</td>
+  </tr>
+</table>
+
+<p id="demo"></p>
+
+</body>
+</html> 
